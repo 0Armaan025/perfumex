@@ -34,3 +34,20 @@
 .sellerSubHeading {
     font-family: 'Raleway', sans-serif;
 }
+.becomeSellerButton {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-top: 2rem;
+    background: black;
+    z-index: 1;
+    border-radius: 7px;
+    font-size: 21px;
+    font-family: 'raleway',sans-serif;
+    background-color: black;
+    transition: 0.2s ease-in-out;
+}
+.becomeSellerButton:hover {
+   background-color: rgb(20, 17, 17);
+}

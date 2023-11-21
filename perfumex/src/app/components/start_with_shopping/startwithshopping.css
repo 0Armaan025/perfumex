@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+#shoppingHeader {
+    font-family: 'Open Sans', sans-serif;
+}
+.item {
+    background-color: #363434;
+}
+.itemsDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}

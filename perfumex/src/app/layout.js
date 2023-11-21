@@ -3,6 +3,7 @@ import './globals.css'
 import Home from './page'
 import Navbar from './navbar/page'
 import BecomeSeller from './become_a_seller/become_seller'
+import StartWithShopping from './start_with_shopping/start_with_shopping'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
       
       <Navbar/>
       <BecomeSeller/>
+      <StartWithShopping/>
       </>
   )
 }

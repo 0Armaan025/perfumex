@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import Logo from '../../assets/images/logo.png';
 import './navbar.css';
 
 export default function Navbar() {

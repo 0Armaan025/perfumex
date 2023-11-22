@@ -7,7 +7,7 @@ export function GET(request) {
             name: 'raging',
             age: 'idk',
             server: 'geo nerds',
-    
+            // added a comment
         },
         {
             name: 'armaan',

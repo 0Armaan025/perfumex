@@ -28,3 +28,5 @@ export default function RootLayout({ children }) {
     </>
   );
 }
+
+// TODO: MAKE INPUT FIELDS AND BECOME A SELLER REGISTRATION FORM WORK

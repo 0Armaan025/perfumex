@@ -1,12 +1,21 @@
-import Image from 'next/image'
+// page.js
+
+import RootLayout from './layout';
+import Navbar from '@/components/navbar/page';
+import Footer from '@/components/footer/page';
+import BecomeSeller from '@/components/become_a_seller/become_seller';
+import StartWithShopping from '@/components/start_with_shopping/start_with_shopping';
 
 export default function Home() {
   return (
-    <main>     
-      <center>
-        <br/>
+    <RootLayout>
+      <main>
+        <Navbar/>
         
-      </center>
-    </main>
-  )
+        <BecomeSeller/>
+        <StartWithShopping/>
+        <Footer/>
+      </main>
+    </RootLayout>
+  );
 }

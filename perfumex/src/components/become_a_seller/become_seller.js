@@ -5,7 +5,7 @@ export default function BecomeSeller() {
         <>
 
             <div className="becomeSellerDiv">
-                <br />
+                <br  />
 
                 <div className='boxes'>
 

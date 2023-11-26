@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
 
 * {
     margin: 0;
@@ -33,6 +34,7 @@
     border: 1px solid grey;
     padding: 1rem;
     border-radius: 4px;
+    font-family: 'Manrope', sans-serif;
 }
 
 .labelText {

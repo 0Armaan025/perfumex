@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+.giftStoreHeading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.giftCards {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.formField {
+    border: 1px solid grey;
+    padding: 1rem;
+    border-radius: 4px;
+    font-family: 'Manrope', sans-serif;
+}
+.prices {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.price {
+    margin: 12px;
+}
+.labelText {
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: 'Lora', serif;
+}
+.customNumber {
+    border-radius: 4px;
+    border: 1px solid white;
+}
+.createGiftCardDiv {
+    background: #171616;
+}
+.createGiftCardBtn {
+    background: #171616;
+    border: 1px solid slategray;
+    border-radius: 12px;
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    transition: 0.3s ease-in-out;
+    margin: 1rem;
+}
+.createGiftCardBtn:hover {
+    background: slategray;
+    color: white;
+    cursor: pointer;
+}
+.choiceDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

@@ -3,12 +3,13 @@
 import Navbar from "@/components/navbar/page";
 import RootLayout from "../layout";
 import './becomeaseller.css';
+import Footer from "@/components/footer/page";
 
 
 export default function BecomeASeller() {
   return (
     <>
-    <RootLayout>
+    
       <main>
         <Navbar/>
         <center>
@@ -95,8 +96,10 @@ export default function BecomeASeller() {
             </div>
           </div>
         </center>
+        
       </main>
-    </RootLayout>
+    
+    <Footer/>
     </>
   );
     

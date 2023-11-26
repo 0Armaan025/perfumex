@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sellerRegistrationForm {
+    background: #171616;
+    padding: 0.5rem;
+    margin-right: 40rem;
+    margin-left: 40rem;
+}
+
+.sellerForm {
+    background: black;
+    padding: 0.5rem;
+    margin: 2rem;
+    margin-right: 22em;
+    margin-left: 22rem;
+    border-radius: 12px;
+}
+
+.guidelineText {
+    font-weight: 600;
+    color: grey;
+}
+
+.formField {
+    border: 1px solid grey;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.labelText {
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: 'Lora', serif;
+}
+#sellerRegistrationHeading {
+    font-family: 'Playfair Display', serif;
+}
+.becomeSellerBtn {
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    transition: 0.3s ease-in-out;
+    font-family: 'Mulish', sans-serif;
+    font-size: 22px;
+}
+.becomeSellerBtn:hover {
+    cursor: pointer;
+    background-color: black;
+}

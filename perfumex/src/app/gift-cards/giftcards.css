@@ -58,3 +58,23 @@
     justify-content: center;
     align-items: center;
 }
+.redeemCodeFields {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.redeemGiftCardBtn {
+    background: #171616;
+    border: 1px solid slategray;
+    border-radius: 6px;
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    transition: 0.3s ease-in-out;
+    margin: 1rem;
+}
+.redeemGiftCardBtn:hover {
+    background: grey;
+    color: black;
+    cursor: pointer;
+}

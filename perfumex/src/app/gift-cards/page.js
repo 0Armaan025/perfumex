@@ -1,6 +1,7 @@
 import Navbar from "@/components/navbar/page";
 import RootLayout from "../layout";
 import './giftcards.css';
+import Footer from "@/components/footer/page";
 
 export default function GiftCards() {
     return (
@@ -94,11 +95,31 @@ export default function GiftCards() {
                         <br/>
                         <center>
                                     <input type="button" value="Create" className="createGiftCardBtn text-3xl p-3 m-4 rounded-lg"/>
+                                    <hr className="bg-slate-50 w-full" />
+                                    <br/>
+                                    <br/>
+
+                                    <h2 className="text-5xl font-bold align-left mr-96"> Redeem a gift card </h2>
+                                    <h4 className="text-2xl font-thin mr-50 mt-8"> It should be something like XA42-4342-8812-ABC3 </h4>
+                                    <div className="redeemCodeFields">
+
+                                        <input type="text" placeholder="XA42" className="formField p-2 m-4 align-center w-16 border-slate-50" />
+                                        <h1 className="font-bold text-2xl">-</h1>
+                                        <input type="text" placeholder="4342" className="formField p-2 m-4 align-center w-16 border-slate-50" />
+                                        <h1 className="font-bold text-2xl">-</h1>
+                                        <input type="text" placeholder="8812" className="formField p-2 m-4 align-center w-16 border-slate-50" />
+                                        <h1 className="font-bold text-2xl">-</h1>
+                                        <input type="text" placeholder="ABC3" className="formField p-2 m-4 align-center w-16 border-slate-50" />
+                                       
+                                    </div>
+                                    
+                                        <input type="button" value="Redeem" className="redeemGiftCardBtn text-xl p-3 m-1 rounded"/>
+                                        <br/><br/><br/><br/>
                                 </center>
 
                                 
                     </center>
-
+                    <Footer/>
 
                 </main>
             </RootLayout>

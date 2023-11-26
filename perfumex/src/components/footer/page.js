@@ -17,7 +17,7 @@ export default function Footer() {
                                 <Link href="/become-a-seller" className="hover:underline me-4 md:me-6">Sell on PerfumeX</Link>
                             </li>
                             <li>
-                                <a href="#" className="hover:underline me-4 md:me-6">Giftcards</a>
+                                <Link href="/gift-cards" className="hover:underline me-4 md:me-6">Giftcards</Link>
                             </li>
                             <li>
                                 <a href="#" className="hover:underline me-4 md:me-6">Advertise Your Products</a>

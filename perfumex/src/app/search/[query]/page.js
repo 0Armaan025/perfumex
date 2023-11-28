@@ -6,6 +6,7 @@ export default function SearchPage() {
         <>
             <RootLayout>
                 <main>
+                    // TODO: A LOT TO DO
                     <Navbar/>
                 </main>
             </RootLayout>
